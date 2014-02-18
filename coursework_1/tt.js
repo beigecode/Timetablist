@@ -14,7 +14,7 @@ $(function(){
            
 
                  for(var i=0;i<r.events.length;i++){        // adds event to the timetable
-          $('#'+r.events[i].slot).html(r.SITS_MOD_NAME + '<br>' + r.events[i].type + '<br>' + r.events[i].rooms	)
+          $('#'+r.events[i].slot).html('<b>'+ r.SITS_MOD_NAME +'</b>' + '<br>' + r.events[i].type + '<br>' + r.events[i].rooms	)
         }
 
 		
