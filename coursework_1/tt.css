@@ -1,0 +1,43 @@
+body{
+	font:arial;
+}
+
+ /*/ #schedule , td , th {
+	border-collapse: collapse;
+	border: 1px solid black;
+	table-layout: fixed;
+}
+/*/
+
+table { 
+color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 900px; 
+border-collapse: collapse; 
+table-layout: fixed; 
+}
+
+td, th { 
+border: 1px solid #CCC; /* No more visible border */
+height: 30px; 
+transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {
+background: #DFDFDF;  /* Darken header a bit */
+font-weight: bold;
+}
+
+td {
+background: #FAFAFA;
+}
+	
+tr td:hover { background: #666; color: #FFF; } /* Hover cell effect! */
+
+#fixedDetails {
+position:relative;
+ top:0;
+ right:0;
+ width:400px;
+}
+
