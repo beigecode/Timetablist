@@ -1,34 +1,36 @@
 <!doctype html>
 <html>
 <head>
-    <link href='tt.css' rel='stylesheet' />
-    <script src='jquery-1.11.0.min.js'></script>
-    <script src='tt.js'></script>
-    <title>Timetable</title>
+   <link href='tt.css' rel='stylesheet' />
+   <script src='jquery-1.11.0.min.js'></script>
+   <script src='tt.js'></script>
+   <title>Timetable</title>
 </head>
 <body>
-    <h1>Timetable</h1>
-    <div id='controls'>Enter Module:<input value='' id='module'/>
-        <button id='getModule'>Go</button>
-  
-  <select id= "dropDownModule">
-</select>
+   <h1>Timetable</h1>
+   <div id='controls'>Enter Module:<input value='' id='module'/>
+       <button id='getModule'>Go</button> 
+   </div>
 
-    <table id='fixedDetails'>
-        <tr><th>Module Code</th><td id='moduleCode'></td></tr>
-        <tr><th>Module Name</th><td id='moduleName'></td></tr>
-        <tr><th>Module Leader</th><td id='moduleLeader'></td></tr>
-        <tr><th>Credit Value</th><td id='credit'></td></tr>
-        <tr><th>School</th><td id='school'></td></tr>
-    </table>
-    <table id='schedule'>
-        <caption><h3>Schedule</h3></caption>
-        <tr><th></th><th>09</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th></tr>
-        <tr><th>Mon</th><td id='mon09'></td><td id='mon10'></td><td id='mon11'></td><td id='mon12'></td><td id='mon13'></td><td id='mon14'></td><td id='mon15'></td><td id='mon16'></td></tr>
-        <tr><th>Tue</th><td id='tue09'></td><td id='tue10'></td><td id='tue11'></td><td id='tue12'></td><td id='tue13'></td><td id='tue14'></td><td id='tue15'></td><td id='tue16'></td></tr>
-        <tr><th>Wed</th><td id='wed09'></td><td id='wed10'></td><td id='wed11'></td><td id='wed12'></td><td id='wed13'></td><td id='wed14'></td><td id='wed15'></td><td id='wed16'></td></tr>
-        <tr><th>Thu</th><td id='thu09'></td><td id='thu10'></td><td id='thu11'></td><td id='thu12'></td><td id='thu13'></td><td id='thu14'></td><td id='thu15'></td><td id='thu16'></td></tr>
-        <tr><th>Fri</th><td id='fri09'></td><td id='fri10'></td><td id='fri11'></td><td id='fri12'></td><td id='fri13'></td><td id='fri14'></td><td id='fri15'></td><td id='fri16'></td></tr>
-    </table>
+   <div id = "divrelated">Related modules:<select id="listofmodulesrelated">
+  </select></div>
+  <div id = "divlist">Module list:<select id = "listofmodules"></select></div>
+
+       <table id='fixedDetails'>
+       <tr><th>Module Code</th><td id='moduleCode'></td></tr>
+       <tr><th>Module Name</th><td id='moduleName'></td></tr>
+       <tr><th>Module Leader</th><td id='moduleLeader'></td></tr>
+       <tr><th>Credit Value</th><td id='credit'></td></tr>
+       <tr><th>School</th><td id='school'></td></tr>
+   </table>
+   <table id='schedule'>
+       <caption><h3>Schedule</h3></caption>
+       <tr><th></th><th>09</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th></tr>
+       <tr><th>Mon</th><td id='mon09'></td><td id='mon10'></td><td id='mon11'></td><td id='mon12'></td><td id='mon13'></td><td id='mon14'></td><td id='mon15'></td><td id='mon16'></td></tr>
+       <tr><th>Tue</th><td id='tue09'></td><td id='tue10'></td><td id='tue11'></td><td id='tue12'></td><td id='tue13'></td><td id='tue14'></td><td id='tue15'></td><td id='tue16'></td></tr>
+       <tr><th>Wed</th><td id='wed09'></td><td id='wed10'></td><td id='wed11'></td><td id='wed12'></td><td id='wed13'></td><td id='wed14'></td><td id='wed15'></td><td id='wed16'></td></tr>
+       <tr><th>Thu</th><td id='thu09'></td><td id='thu10'></td><td id='thu11'></td><td id='thu12'></td><td id='thu13'></td><td id='thu14'></td><td id='thu15'></td><td id='thu16'></td></tr>
+       <tr><th>Fri</th><td id='fri09'></td><td id='fri10'></td><td id='fri11'></td><td id='fri12'></td><td id='fri13'></td><td id='fri14'></td><td id='fri15'></td><td id='fri16'></td></tr>
+   </table>
 </body>
 </html>
