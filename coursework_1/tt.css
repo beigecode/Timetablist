@@ -1,17 +1,30 @@
 body{
-	font-family: Calibri;
-	background-image:url(http://www.hdpaperwall.com/wp-content/uploads/2014/01/Eroded-Iceberg-in-the-Lemaire-Channel-antartica-23340741-1600-1200.jpg);
-	background-size: 100%;
-	opacity: 0.80;
+font-family: Calibri;
+background-image:url(iceberg.jpg);
+background-size: 100%;
+
+}
+
+div{
+color: white;
+}
+
+#divrelated{
+position: fixed;
+top: 30px;
+right: 0;
+}
+
+#divlist{
+position:fixed;
+top:0;
+right:0;
 }
 
 h1 {
-	color: white;
+color: white;
 }
 
-#controls{
-	color: white;
-}
 
 table { 
 
@@ -19,16 +32,17 @@ font-family: Calibri, Arial, sans-serif;
 width: 100%; 
 border-collapse: collapse; 
 table-layout: fixed; 
+opacity: 0.80;
 }
 
 td, th { 
 border: 1px solid #CCC; 
 height: 30px; 
-transition: all 0.3s;  /* Simple transition for hover effect */
+
 }
 
 th {
-background-color: steelblue; /* Darken header a bit */
+background-color: steelblue; 
 font-weight: bold;
 color:white;
 }
@@ -36,12 +50,12 @@ color:white;
 td {
 background: white;
 }
-	
-/* tr td:hover { background: lightskyblue; color: #000;} /* Hover cell effect! */
+
+ /*/ tr td:hover { background: skyblue; color: #000;} /* Hover cell effect */
 
 #fixedDetails {
 position:relative;
- top:0;
- right:0;
- width:400px;
+top:0;
+right:0;
+width:400px;
 }
